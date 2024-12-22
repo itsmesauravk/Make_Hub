@@ -4,7 +4,7 @@ const router = express.Router();
 
 const CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
 const CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
-const REDIRECT_URI = '<http://localhost:3000/auth/google/callback>';
+const REDIRECT_URI = `<${process.env.CLIENT_URL}/auth/google/callback>`;
 
 // Initiates the Google Login flow
 router.get('/auth/google', (req, res) => {
