@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "username": "Saurav Karki",
+    "email": "saurav@example.com",
+    "passwordHash": "hashed_password_1",
+    "bio": "Food lover and aspiring chef. Specializes in Italian cuisine.",
+    "profileImage": "https://freedesignfile.com/upload/2019/11/Professionals-cook-vector.jpg",
+    "recipesPosted": [1, 7],
+    "myLikes": [2, 4, 5],
+    "mySaved": [3, 10],
+    "following": [2, 3],
+    "followers": [4, 5]
+  },
+  {
+    "id": 2,
+    "username": "Dhaniya Laal Mirch",
+    "email": "cookingqueen@example.com",
+    "passwordHash": "hashed_password_2",
+    "bio": "Passionate about baking and sweet treats. Professional baker for 5 years.",
+    "profileImage": "https://5.imimg.com/data5/ANDROID/Default/2021/1/WP/TS/XB/27732288/product-jpeg.jpg",
+    "recipesPosted": [2, 8],
+    "myLikes": [1, 3],
+    "mySaved": [5, 9],
+    "following": [1],
+    "followers": [3, 4]
+  },
+  {
+    "id": 3,
+    "username": "grillmaster",
+    "email": "grillmaster@example.com",
+    "passwordHash": "hashed_password_3",
+    "bio": "Grill enthusiast and barbecue expert. Loves experimenting with flavors.",
+    "profileImage": "https://freedesignfile.com/upload/2019/11/Professionals-cook-vector.jpg",
+    "recipesPosted": [3, 9],
+    "myLikes": [4, 5],
+    "mySaved": [1, 2],
+    "following": [2, 4],
+    "followers": [1, 5]
+  },
+  {
+    "id": 4,
+    "username": "Sanjeet Singh",
+    "email": "sanjeetsingh12@gmail.com",
+    "passwordHash": "hashed_password_4",
+    "bio": "Healthy eating advocate. Focuses on creating nutritious and delicious salads.",
+    "profileImage": "https://5.imimg.com/data5/ANDROID/Default/2021/1/WP/TS/XB/27732288/product-jpeg.jpg",
+    "recipesPosted": [1, 4, 10],
+    "myLikes": [1, 3, 6],
+    "mySaved": [7, 8],
+    "following": [3, 5],
+    "followers": [1, 2]
+  },
+  {
+    "id": 5,
+    "username": "dessertdiva",
+    "email": "dessertdiva@example.com",
+    "passwordHash": "hashed_password_5",
+    "bio": "Dessert aficionado. Specializes in cookies, cakes, and all things sweet.",
+    "profileImage": "https://freedesignfile.com/upload/2019/11/Professionals-cook-vector.jpg",
+    "recipesPosted": [5],
+    "myLikes": [2, 7],
+    "mySaved": [4, 9, 10],
+    "following": [1, 4],
+    "followers": [3]
+  }
+]

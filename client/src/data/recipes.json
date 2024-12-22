@@ -1,0 +1,543 @@
+[
+  {
+    "id": 1,
+    "title": "Burger",
+    "slug": "burger",
+    "summary": "A juicy and flavorful burger perfect for lunch or dinner.",
+    "description": "This classic burger is made with a juicy beef patty, fresh lettuce, tomatoes, and your choice of toppings. It's a crowd-pleaser for any meal.",
+    "image": "/images/burger.jpg",
+    "userId": 4,
+    "type": "Non-Vegetarian",
+    "ingredients": [
+      "200g beef patty",
+      "2 slices of cheese",
+      "1 lettuce leaf",
+      "2 slices of tomato",
+      "1 hamburger bun",
+      "Salt and pepper"
+    ],
+    "method": [
+      "Season the beef patty with salt and pepper.",
+      "Grill the patty on medium heat until cooked through.",
+      "Place the cheese on top of the patty during the last minute of cooking.",
+      "Assemble the burger with lettuce, tomato, and your choice of toppings.",
+      "Serve immediately with your favorite side."
+    ],
+    "categories": "['Lunch','Dinner']",
+    "likes": [1, 2, 3],
+    "saved": [4, 5],
+    "views": 250,
+    "rating": [
+      {
+        "userId": 2,
+        "rating": 5,
+        "comment": "Delicious and easy to make!"
+      },
+      {
+        "userId": 3,
+        "rating": 4,
+        "comment": "Perfect burger recipe."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "French Fries",
+    "slug": "french-fries",
+    "summary": "Crispy and golden, the perfect snack or side dish.",
+    "description": "These French fries are perfectly crispy on the outside and tender on the inside. Ideal as a snack or a side dish with your favorite meal.",
+    "image": "/images/frenchfires.jpg",
+    "userId": 2,
+    "type": "Vegetarian",
+    "ingredients": ["3 large potatoes", "Salt", "Vegetable oil for frying"],
+    "method": [
+      "Peel and cut the potatoes into thin strips.",
+      "Soak the potato strips in cold water for 30 minutes.",
+      "Heat oil in a deep fryer or large pot to 350°F (175°C).",
+      "Fry the potatoes until golden brown and crispy.",
+      "Drain on paper towels, season with salt, and serve hot."
+    ],
+    "categories": "['Snacks', 'Lunch']",
+    "likes": [4, 5, 6],
+    "saved": [1, 3],
+    "views": 150,
+    "rating": [
+      {
+        "userId": 2,
+        "rating": 5,
+        "comment": "Delicious and easy to make!"
+      },
+      {
+        "userId": 3,
+        "rating": 4,
+        "comment": "Perfect burger recipe."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Noodles",
+    "slug": "noodles",
+    "summary": "A quick and tasty noodle dish, perfect for any meal.",
+    "description": "These noodles are tossed with vegetables and a savory sauce, making for a quick and satisfying meal that can be enjoyed at any time.",
+    "image": "/images/noodle.jpg",
+    "userId": 3,
+    "type": "Vegetarian",
+    "ingredients": [
+      "200g noodles",
+      "1 carrot, julienned",
+      "1 bell pepper, sliced",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "Salt and pepper to taste"
+    ],
+    "method": [
+      "Cook the noodles according to package instructions.",
+      "In a pan, heat sesame oil and sauté the vegetables until tender.",
+      "Add the cooked noodles and soy sauce, tossing to combine.",
+      "Season with salt and pepper to taste.",
+      "Serve hot, garnished with green onions or sesame seeds if desired."
+    ],
+    "categories": "['Lunch', 'Dinner']",
+    "likes": [7, 8, 9],
+    "saved": [1, 2],
+    "views": 300,
+    "rating": [
+      {
+        "userId": 2,
+        "rating": 5,
+        "comment": "Delicious and easy to make!"
+      },
+      {
+        "userId": 3,
+        "rating": 4,
+        "comment": "Perfect burger recipe."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Caesar Salad",
+    "slug": "caesar-salad",
+    "summary": "A fresh salad with romaine lettuce, croutons, and Caesar dressing.",
+    "description": "This Caesar salad features crisp romaine lettuce, crunchy croutons, and a creamy Caesar dressing. It's a refreshing dish that's perfect as a starter or light meal.",
+    "image": "https://assets.bonappetit.com/photos/624215f8a76f02a99b29518f/1:1/w_2800,h_2800,c_limit/0328-ceasar-salad-lede.jpg",
+    "userId": 4,
+    "type": "vegetarian",
+    "ingredients": [
+      "1 head romaine lettuce",
+      "1/2 cup croutons",
+      "1/4 cup grated parmesan cheese",
+      "1/2 cup Caesar dressing",
+      "Salt and pepper"
+    ],
+    "method": [
+      "Chop the romaine lettuce and place it in a large bowl.",
+      "Add the croutons and grated parmesan cheese.",
+      "Drizzle with Caesar dressing and toss to combine.",
+      "Season with salt and pepper to taste.",
+      "Serve immediately."
+    ],
+    "categories": "['Snacks', 'Lunch']",
+    "likes": [3, 4],
+    "saved": [7, 8],
+    "views": 700,
+    "rating": [
+      {
+        "userId": 2,
+        "rating": 5,
+        "comment": "Delicious and easy to make!"
+      },
+      {
+        "userId": 3,
+        "rating": 4,
+        "comment": "Perfect burger recipe."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Chocolate Chip Cookies",
+    "slug": "chocolate-chip-cookies",
+    "summary": "Crispy on the edges, chewy in the center, loaded with chocolate chips.",
+    "description": "These chocolate chip cookies are a crowd favorite. They're crispy on the edges, chewy in the center, and packed with chocolate chips. Perfect for any occasion.",
+    "image": "https://handletheheat.com/wp-content/uploads/2020/10/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9-637x637-1.jpg",
+    "userId": 5,
+    "type": "vegetarian",
+    "ingredients": [
+      "1 cup butter",
+      "1 cup sugar",
+      "1 cup brown sugar",
+      "2 eggs",
+      "2 teaspoons vanilla extract",
+      "3 cups flour",
+      "1 teaspoon baking soda",
+      "1/2 teaspoon salt",
+      "2 cups chocolate chips"
+    ],
+    "method": [
+      "Preheat oven to 350°F (175°C).",
+      "Cream together butter, sugar, and brown sugar until smooth.",
+      "Beat in eggs one at a time, then stir in vanilla.",
+      "Combine flour, baking soda, and salt, then gradually add to the wet mixture.",
+      "Stir in chocolate chips.",
+      "Drop by rounded spoonfuls onto ungreased cookie sheets.",
+      "Bake for 10 to 12 minutes or until edges are golden brown."
+    ],
+    "categories": "['Snacks', 'Lunch']",
+    "likes": [3],
+    "saved": [2, 4, 9],
+    "views": 2200,
+    "rating": [
+      {
+        "userId": 2,
+        "rating": 5,
+        "comment": "Delicious and easy to make!"
+      },
+      {
+        "userId": 3,
+        "rating": 4,
+        "comment": "Perfect burger recipe."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Margherita Pizza",
+    "slug": "margherita-pizza",
+    "summary": "A classic pizza with fresh tomatoes, mozzarella, and basil.",
+    "description": "Margherita Pizza is a simple yet delicious pizza topped with fresh tomatoes, mozzarella cheese, and basil leaves. It's a favorite for its fresh flavors and easy preparation.",
+    "image": "https://cdn.loveandlemons.com/wp-content/uploads/2023/07/margherita-pizza-500x500.jpg",
+    "userId": 6,
+    "type": "vegetarian",
+    "ingredients": [
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "1 cup fresh mozzarella",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt and pepper"
+    ],
+    "method": [
+      "Preheat your oven to 475°F (245°C).",
+      "Roll out the pizza dough on a floured surface.",
+      "Spread the tomato sauce over the dough.",
+      "Top with fresh mozzarella slices and basil leaves.",
+      "Drizzle with olive oil and season with salt and pepper.",
+      "Bake in the oven for 10-12 minutes or until the crust is golden brown.",
+      "Serve hot."
+    ],
+    "categories": "['Lunch', 'Dinner']",
+    "likes": [4, 5],
+    "saved": [1, 3],
+    "views": 1400,
+    "rating": [
+      {
+        "userId": 2,
+        "rating": 5,
+        "comment": "Delicious and easy to make!"
+      },
+      {
+        "userId": 3,
+        "rating": 4,
+        "comment": "Perfect burger recipe."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Chicken Alfredo",
+    "slug": "chicken-alfredo",
+    "summary": "Creamy Alfredo sauce with tender chicken and fettuccine pasta.",
+    "description": "Chicken Alfredo is a rich and creamy pasta dish featuring tender chicken, a smooth Alfredo sauce, and fettuccine pasta. It's a comforting meal that's easy to prepare.",
+    "image": "https://insanelygoodrecipes.com/wp-content/uploads/2023/01/Creamy-and-Saucy-Chicken-Alfredo-Pasta-500x500.jpg",
+    "userId": 1,
+    "type": "non-vegetarian",
+    "ingredients": [
+      "2 chicken breasts",
+      "200g fettuccine pasta",
+      "1 cup heavy cream",
+      "1/2 cup parmesan cheese",
+      "2 cloves garlic",
+      "Salt and pepper",
+      "Olive oil"
+    ],
+    "method": [
+      "Cook the fettuccine pasta in salted boiling water until al dente.",
+      "Season the chicken breasts with salt and pepper, then cook in a pan with olive oil until golden and cooked through.",
+      "In the same pan, sauté garlic until fragrant.",
+      "Add the heavy cream and parmesan cheese, stirring until smooth.",
+      "Slice the chicken and toss it with the pasta and sauce.",
+      "Serve hot."
+    ],
+    "categories": "['dinner']",
+    "likes": [2, 3, 5],
+    "saved": [1, 4],
+    "views": 1700,
+    "rating": [
+      {
+        "userId": 2,
+        "rating": 5,
+        "comment": "Delicious and easy to make!"
+      },
+      {
+        "userId": 3,
+        "rating": 4,
+        "comment": "Perfect burger recipe."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "French Toast",
+    "slug": "french-toast",
+    "summary": "Golden, buttery French toast with a hint of cinnamon.",
+    "description": "This French toast is golden and buttery, with a delicious hint of cinnamon. It's the perfect breakfast treat that's easy to make and always a hit.",
+    "image": "https://www.mccormick.com/-/media/project/oneweb/mccormick-us/mccormick/recipe-images/quick_and_easy_french_toast_new_800x800.webp?rev=ee6ad2bb4e784ae3b47792fe1567e606&vd=20240606T181333Z&extension=webp&hash=239069BA7916AD55FF124E6E65F4C335",
+    "userId": 2,
+    "type": "vegetarian",
+    "ingredients": [
+      "4 slices bread",
+      "2 eggs",
+      "1/2 cup milk",
+      "1 teaspoon cinnamon",
+      "1 tablespoon sugar",
+      "Butter for frying",
+      "Maple syrup for serving"
+    ],
+    "method": [
+      "In a bowl, whisk together eggs, milk, cinnamon, and sugar.",
+      "Dip each slice of bread into the egg mixture, coating both sides.",
+      "Heat butter in a pan over medium heat.",
+      "Cook the bread slices until golden brown on both sides.",
+      "Serve with maple syrup."
+    ],
+    "categories": "['breakfast']",
+    "likes": [1, 3, 5],
+    "saved": [2, 4],
+    "views": 950,
+    "rating": [
+      {
+        "userId": 2,
+        "rating": 5,
+        "comment": "Delicious and easy to make!"
+      },
+      {
+        "userId": 3,
+        "rating": 4,
+        "comment": "Perfect burger recipe."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Beef Tacos",
+    "slug": "beef-tacos",
+    "summary": "Spicy ground beef in soft tortillas with fresh toppings.",
+    "description": "These beef tacos are packed with flavor, featuring spicy ground beef, fresh toppings, and soft tortillas. They're great for a quick and tasty meal.",
+    "image": "https://feelgoodfoodie.net/wp-content/uploads/2017/04/Ground-Beef-Tacos-9.jpg",
+    "userId": 3,
+    "type": "non-vegetarian",
+    "ingredients": [
+      "1/2 pound ground beef",
+      "1 packet taco seasoning",
+      "8 small tortillas",
+      "1/2 cup shredded lettuce",
+      "1/4 cup diced tomatoes",
+      "1/4 cup shredded cheese",
+      "Sour cream and salsa for serving"
+    ],
+    "method": [
+      "Cook the ground beef in a pan over medium heat until browned.",
+      "Add taco seasoning and a little water, then simmer until the sauce thickens.",
+      "Warm the tortillas in a pan or microwave.",
+      "Fill each tortilla with beef, lettuce, tomatoes, and cheese.",
+      "Serve with sour cream and salsa."
+    ],
+    "categories": "['Snacks', 'Lunch']",
+    "likes": [3, 4, 5],
+    "saved": [1, 2],
+    "views": 1100,
+    "rating": [
+      {
+        "userId": 2,
+        "rating": 5,
+        "comment": "Delicious and easy to make!"
+      },
+      {
+        "userId": 3,
+        "rating": 4,
+        "comment": "Perfect burger recipe."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Grilled Salmon",
+    "slug": "grilled-salmon",
+    "summary": "Tender grilled salmon with a lemon butter sauce.",
+    "description": "This grilled salmon is tender and flavorful, topped with a lemon butter sauce. It's an elegant dish that's easy to prepare and perfect for any occasion.",
+    "image": "https://www.thecookierookie.com/wp-content/uploads/2023/05/featured-grilled-salmon-recipe.jpg",
+    "userId": 4,
+    "type": "vegetarian",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "2 tablespoons butter",
+      "1 clove garlic",
+      "Salt and pepper",
+      "Olive oil"
+    ],
+    "method": [
+      "Preheat the grill to medium-high heat.",
+      "Season the salmon fillets with salt and pepper.",
+      "Grill the salmon for about 4-6 minutes on each side, or until cooked through.",
+      "In a small pan, melt the butter and sauté the garlic until fragrant.",
+      "Squeeze in the lemon juice and stir to combine.",
+      "Drizzle the lemon butter sauce over the grilled salmon.",
+      "Serve hot."
+    ],
+    "categories": "['Lunch', 'Dinner']",
+    "likes": [1, 2, 3],
+    "views": 1250,
+    "saved": [5, 9],
+    "rating": [
+      {
+        "userId": 2,
+        "rating": 5,
+        "comment": "Delicious and easy to make!"
+      },
+      {
+        "userId": 3,
+        "rating": 4,
+        "comment": "Perfect burger recipe."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Classic Cheeseburger",
+    "slug": "classic-cheeseburger",
+    "summary": "A juicy beef patty topped with cheddar cheese, lettuce, and tomato.",
+    "description": "This classic cheeseburger features a juicy beef patty, melted cheddar cheese, fresh lettuce, tomato, pickles, and a tangy special sauce. Perfect for any meal, it's a crowd-pleaser.",
+    "image": "https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_2560%2Cc_limit/Smashburger-recipe-120219.jpg",
+    "userId": 1,
+    "type": "vegetarian",
+    "ingredients": [
+      "1/2 pound ground beef",
+      "1 slice cheddar cheese",
+      "1 lettuce leaf",
+      "1 slice tomato",
+      "2 pickles",
+      "1 burger bun",
+      "1 tablespoon special sauce"
+    ],
+    "method": [
+      "Form the ground beef into a patty.",
+      "Grill the patty over medium heat until cooked to your liking.",
+      "Place the cheddar cheese on top of the patty to melt.",
+      "Assemble the burger by placing the patty on the bun, followed by lettuce, tomato, pickles, and special sauce.",
+      "Serve immediately."
+    ],
+    "categories": "['Lunch','Dinner']",
+    "likes": [1, 5],
+    "saved": [4, 9],
+    "views": 1200,
+    "rating": [
+      {
+        "userId": 2,
+        "rating": 5,
+        "comment": "Delicious and easy to make!"
+      },
+      {
+        "userId": 3,
+        "rating": 4,
+        "comment": "Perfect burger recipe."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Spaghetti Carbonara",
+    "slug": "spaghetti-carbonara",
+    "summary": "A rich and creamy pasta dish made with eggs, cheese, pancetta, and pepper.",
+    "description": "Spaghetti Carbonara is a classic Italian pasta dish made with eggs, cheese, pancetta, and black pepper. It's creamy, savory, and perfect for a quick yet luxurious meal.",
+    "image": "https://images.ctfassets.net/3vz37y2qhojh/4B2QkY3grTx5oigHJQou1f/a8326779160ea8024265a87c96923763/Olga_30MnSpgCarbonara_Hero-Horizontal-Olga-Ivanova-V3.jpg",
+    "userId": 2,
+    "type": "non-vegetarian",
+    "ingredients": [
+      "200g spaghetti",
+      "2 large eggs",
+      "100g pancetta",
+      "50g parmesan cheese",
+      "1 clove garlic",
+      "Salt and black pepper"
+    ],
+    "method": [
+      "Cook the spaghetti in salted boiling water until al dente.",
+      "Fry the pancetta with the garlic until crispy.",
+      "Beat the eggs in a bowl, then add grated parmesan and pepper.",
+      "Drain the pasta and mix it with the pancetta and garlic.",
+      "Remove from heat, quickly stir in the egg mixture, and serve immediately."
+    ],
+    "categories": "['breakfast']",
+    "likes": [5],
+    "saved": [1, 3],
+    "views": 1500,
+    "rating": [
+      {
+        "userId": 2,
+        "rating": 5,
+        "comment": "Delicious and easy to make!"
+      },
+      {
+        "userId": 3,
+        "rating": 4,
+        "comment": "Perfect burger recipe."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Pancakes",
+    "slug": "pancakes",
+    "summary": "Fluffy pancakes perfect for a delightful breakfast.",
+    "description": "These pancakes are light, fluffy, and perfect for breakfast or brunch. Serve them with syrup, butter, and fresh berries for a delightful meal.",
+    "image": "https://www.onceuponachef.com/images/2009/08/pancakes-01.jpg",
+    "userId": 3,
+    "type": "vegetarian",
+    "ingredients": [
+      "1 cup flour",
+      "1 tablespoon sugar",
+      "1 teaspoon baking powder",
+      "1/2 teaspoon baking soda",
+      "1/2 teaspoon salt",
+      "1 cup buttermilk",
+      "1 egg",
+      "2 tablespoons melted butter"
+    ],
+    "method": [
+      "In a bowl, mix flour, sugar, baking powder, baking soda, and salt.",
+      "In another bowl, whisk together buttermilk, egg, and melted butter.",
+      "Combine the wet and dry ingredients, stirring until just mixed.",
+      "Heat a griddle and cook pancakes until bubbles form on the surface, then flip and cook until golden brown.",
+      "Serve with your favorite toppings."
+    ],
+    "categories": "['breakfast']",
+    "likes": [2, 5],
+    "saved": [1, 3],
+    "views": 900,
+    "rating": [
+      {
+        "userId": 2,
+        "rating": 5,
+        "comment": "Delicious and easy to make!"
+      },
+      {
+        "userId": 3,
+        "rating": 4,
+        "comment": "Perfect burger recipe."
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Burger",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "image": "/images/burger.jpg",
+    "likes": [1, 2, 3],
+    "views": 250,
+    "comments": [
+      { "userId": 1, "comment": "Delicious!" },
+      { "userId": 2, "comment": "Can't wait to try this!" }
+    ],
+    "type": "Non-Vegetarian",
+    "categories": ["Lunch", "Dinner"]
+  },
+  {
+    "title": "French Fries",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "image": "/images/frenchfires.jpg",
+    "likes": [4, 5, 6],
+    "views": 150,
+    "comments": [
+      { "userId": 3, "comment": "Perfectly crispy!" },
+      { "userId": 4, "comment": "A classic side dish!" }
+    ],
+    "type": "Vegetarian",
+    "categories": ["Snacks", "Lunch"]
+  },
+  {
+    "title": "Noodles",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "image": "/images/noodle.jpg",
+    "likes": [7, 8, 9],
+    "views": 300,
+    "comments": [
+      { "userId": 5, "comment": "So flavorful!" },
+      { "userId": 6, "comment": "Great recipe!" }
+    ],
+    "type": "Vegetarian",
+    "categories": ["Lunch", "Dinner", "Meal"]
+  }
+]
