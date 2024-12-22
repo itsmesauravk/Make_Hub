@@ -49,7 +49,7 @@ database();
 
 // startServer()
 
-module.exports = app
+
 
 app.listen(port, ()=>{
     console.log("Server Is Running on port ",port)
