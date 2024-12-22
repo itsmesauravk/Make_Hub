@@ -40,7 +40,11 @@ app.use('/api', botRoutes);
 
 
 
-
+//home
+app.get('/', (req, res) => {
+    res.send('Welcome to MakeHub API');
+    }
+);
 
 // healthcheck 
  app.get('/api/healthcheck', (req, res) => {
