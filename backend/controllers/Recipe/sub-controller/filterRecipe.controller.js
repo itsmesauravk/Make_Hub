@@ -1,6 +1,6 @@
 const Recipe = require('../../../models/recipe.models')
 const User = require('../../../models/user.models')
-const redisClient = require('../../../Utils/RedisClient')
+// const redisClient = require('../../../Utils/RedisClient')
 
 
 const getAllRecipes = async (req, res) => {
