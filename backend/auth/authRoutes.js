@@ -9,7 +9,7 @@ const jwt = require('jsonwebtoken');
 
 const CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
 const CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
-const REDIRECT_URI = `http://localhost:8000/auth/google/callback`;
+const REDIRECT_URI = `${process.env.SERVER_URL}/auth/google/callback`;
 // const REDIRECT_URI = `${process.env.CLIENT_URL}/auth/google/callback`;
 
 
