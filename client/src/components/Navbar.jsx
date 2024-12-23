@@ -14,10 +14,12 @@ import { IoNotifications } from "react-icons/io5"
 import { RiUserSearchFill } from "react-icons/ri"
 
 import Tooltip from "@mui/material/Tooltip"
+import { RecipeContext } from "./RecipeContext"
 
 const Navbar = () => {
   const [bgColor, setBgColor] = useState("transparent")
   const { isLoggedIn, userBasicInfo } = useContext(LoginContext)
+  const { totalRecipes } = useContext(RecipeContext)
 
   const [countNoti, setCountNoti] = useState(0)
 
@@ -105,7 +107,8 @@ const Navbar = () => {
           to="/all-recipes?page=1"
           className="font-semibold hover:text-primary transition-colors"
         >
-          All Recipes
+          All Recipes{" "}
+          {totalRecipes && totalRecipes > 0 ? `(${totalRecipes})` : ""}
         </Link>
         <Link
           to="/about"

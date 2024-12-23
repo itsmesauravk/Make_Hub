@@ -46,14 +46,17 @@ const getAllRecipes = async (req, res) => {
         .limit(parseInt(limit));
   
       const total = await Recipe.countDocuments(query);
+      const totalRecipes = await Recipe.countDocuments();
   
       res.status(200).json({
         success: true,
         message: 'Recipes fetched successfully',
         data: recipes,
+        totalRecipes,
         total,
         page: parseInt(page),
         pages: Math.ceil(total / limit),
+
       });
     } catch (error) {
       console.error('Error fetching recipes:', error);

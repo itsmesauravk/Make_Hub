@@ -13,7 +13,8 @@ const http = require('http');
 
 // Middleware
 app.use(cors({
-    origin: "https://makehub.vercel.app" || process.env.CLIENT_URL,
+    // origin: "https://makehub.vercel.app" || process.env.CLIENT_URL,
+    origin: "http://localhost:3000" || process.env.CLIENT_URL,
     methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'],
     credentials: true,
     })

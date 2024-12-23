@@ -6,14 +6,17 @@ import reportWebVitals from './reportWebVitals';
 import { Toaster } from 'react-hot-toast';
 import CssBaseline from '@mui/material/CssBaseline';
 import LoginProvider from './components/LoginContext';
+import { RecipeProvider } from './components/RecipeContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <LoginProvider>
-      <CssBaseline />
-      <Toaster/>
-      <App />
+      <RecipeProvider>
+        <CssBaseline />
+        <Toaster/>
+        <App />
+      </RecipeProvider>
     </LoginProvider>
   </React.StrictMode>
 );

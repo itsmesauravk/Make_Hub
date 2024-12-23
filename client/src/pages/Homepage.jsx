@@ -7,10 +7,13 @@ import PopularRecipe from "../components/PopularRecipe"
 import MostLiked from "../components/MostLiked"
 import BasicStats from "../components/BasicStats"
 import ChatBot from "../components/ChatBot"
+import { RecipeContext } from "../components/RecipeContext"
 
 const Homepage = () => {
   const [data, setData] = useState([])
   const [loading, setLoading] = useState(false)
+
+  const { setTotalRecipes } = useContext(RecipeContext)
 
   const queryParams = new URLSearchParams({
     page: 1,
@@ -29,6 +32,7 @@ const Homepage = () => {
       const data = await response.json()
       if (data.success) {
         setData(data.data)
+        setTotalRecipes(data.totalRecipes)
         setLoading(false)
       } else {
         console.log(data.message)
